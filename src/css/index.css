@@ -1,0 +1,6 @@
+@import './variables.css';
+@import './global.css';
+@import './layout.css';
+@import './dashboard.css';
+@import './auth.css';
+@import './components.css';

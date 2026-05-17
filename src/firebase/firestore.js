@@ -11,7 +11,7 @@ import {
   orderBy,
   serverTimestamp,
 } from 'firebase/firestore';
-import { db } from './config';
+import { db } from './firebase';
 
 const requireDb = () => {
   if (!db) throw new Error('Firebase is not configured.');

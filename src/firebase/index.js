@@ -1,4 +1,4 @@
-export { default as firebaseApp, auth, db, isFirebaseConfigured } from './config';
+export { default as firebaseApp, auth, db, isFirebaseConfigured } from './firebase';
 export { login, register, logout, subscribeToAuth } from './auth';
 export {
   COLLECTIONS,

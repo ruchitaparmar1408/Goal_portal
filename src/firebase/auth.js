@@ -4,7 +4,7 @@ import {
   onAuthStateChanged,
   createUserWithEmailAndPassword,
 } from 'firebase/auth';
-import { auth, isFirebaseConfigured } from './config';
+import { auth, isFirebaseConfigured } from './firebase';
 
 const requireAuth = () => {
   if (!auth) {
